@@ -10,7 +10,7 @@ class MainApp:
         self.root = Tk()
 
         # Import the tcl file
-        self.root.tk.call('source', 'forest-light.tcl')
+        self.root.tk.call('source', '../theme-to-tkinter/forest-light.tcl')
 
         # Set the theme with the theme_use method
         ttk.Style().theme_use('forest-light')
